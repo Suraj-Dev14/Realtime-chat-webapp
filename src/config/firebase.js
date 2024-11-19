@@ -18,16 +18,6 @@ const firebaseConfig = {
   appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
-
-// const firebaseConfig = {
-//   apiKey: "AIzaSyD01kXcBWCZeRomM1NxzgISkE3TFVMxnow",
-//   authDomain: "chat-app-79613.firebaseapp.com",
-//   projectId: "chat-app-79613",
-//   storageBucket: "chat-app-79613.firebasestorage.app",
-//   messagingSenderId: "966647087555",
-//   appId: "1:966647087555:web:b372e0002010b6f415bd76"
-// };
-
 const app = initializeApp(firebaseConfig);
 
 const auth = getAuth(app)
